@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://gateway.openai-cloud.com/v1/chat/completions"
+url = "https://sparkai-gateway.vercel.app/v1/chat/completions"
 
 def ask(question):
     payload = json.dumps({
